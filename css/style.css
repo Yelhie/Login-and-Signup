@@ -1,0 +1,49 @@
+/*front import */
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lora', serif;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient( #7b7bc7, #1d1d61);
+}
+
+.form{
+    max-width: 430px;
+    width: 100%;
+    padding: 30px;
+    border-radius: 8px;
+    background: white;
+}
+
+header{
+    font-size: 28px;
+    font-weight: 600;
+    color: #1d1d61;
+    text-align: center;
+}
+
+form{
+    margin-top: 30px;
+}
+
+form .field{
+    height:  45px;
+    width: 100%;
+}
+
+.field input{
+    height: 100%;
+    width: 100%;
+
+}
